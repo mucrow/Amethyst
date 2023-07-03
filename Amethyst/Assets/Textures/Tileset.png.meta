@@ -1,0 +1,506 @@
+fileFormatVersion: 2
+guid: 2d055a8de0d358f47a1d2b60fe23e6d0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wall
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4002156cc8001446984f8e6cd3adab7
+      internalID: 1185270728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeRight
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476821f8179a4894493cf3d6135126a9
+      internalID: 503717744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeLeft
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69776c1d594e0c7429a69b436560f86c
+      internalID: -1671604433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeSteepRightEnd
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e2fc5a872049bf41a8dfef01781cfa4
+      internalID: 560862827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeSteepLeftEnd
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 0, y: -8}
+        - {x: 0, y: -8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74cffa24440216043875ed9ef197aace
+      internalID: -1623181937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WaterSurface
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 496
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab15258288ed1049a89698d42f4750e
+      internalID: -1267642415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeGentleRightStart
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: 8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b845194b7a8d9934f8ffafb75b63ee58
+      internalID: -313567762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeGentleRightEnd
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 8}
+        - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37aa6b8e6ea00541bd8b343a9e49e39
+      internalID: 1142332402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeGentleLeftEnd
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 0}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729f6178af96eb64a9fabcfc1db7cbee
+      internalID: -791476486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeGentleLeftStart
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 0}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: -8, y: 0}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83568dec4e1aa04fb4408d8312f1053
+      internalID: 773397781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeSteepRightStart
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 0, y: 8}
+        - {x: -8, y: -8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d674f456973c3e241afcd8f41756ef0b
+      internalID: 1836601388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SlopeSteepLeftStart
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -8, y: 8}
+        - {x: -8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 8, y: -8}
+        - {x: 0, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e2d2d562ed008e47baa91f20241ea46
+      internalID: -1890027330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a11ef0ad7d0c55c4392e7d1c86259b1e
+      internalID: 776064194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SlopeGentleLeftEnd: -791476486
+      SlopeGentleLeftStart: 773397781
+      SlopeGentleRightEnd: 1142332402
+      SlopeGentleRightStart: -313567762
+      SlopeLeft: -1671604433
+      SlopeRight: 503717744
+      SlopeSteepLeftEnd: -1623181937
+      SlopeSteepLeftStart: -1890027330
+      SlopeSteepRightEnd: 560862827
+      SlopeSteepRightStart: 1836601388
+      Wall: 1185270728
+      Water: 776064194
+      WaterSurface: -1267642415
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
